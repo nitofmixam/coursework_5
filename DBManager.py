@@ -2,7 +2,7 @@ import psycopg2
 
 
 class DBManager:
-    def __init__(self, host, database, user, password):
+    def __init__(self, host: str, database: str, user: str, password: int):
         self.conn = psycopg2.connect(
             host=host,
             database=database,
