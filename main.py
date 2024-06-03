@@ -6,7 +6,7 @@ from tables import create_table, fill_table
 from DBManager import DBManager
 
 
-def main():
+def main(): 
     create_table()
     parse_vacancies()
     fill_table()
